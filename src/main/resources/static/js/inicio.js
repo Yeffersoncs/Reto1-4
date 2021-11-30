@@ -67,7 +67,7 @@ async function verificarEmailPassword(email, password) {
       console.log(`convertedJson`, convertedJson);
       if (convertedJson.id!=null){
         alert("Bienvenido "+convertedJson.name);
-        document.getElementById("objeto").style.display = 'none';
+        // document.getElementById("objeto").style.display = 'none';
         await limpiarformulario();
       }else{
         return false;
